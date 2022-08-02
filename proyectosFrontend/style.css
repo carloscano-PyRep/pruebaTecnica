@@ -1,0 +1,37 @@
+hrml{
+    margin:0px;
+    padding:0px 0px 0px 0px 0px;
+}
+.bgcc{
+    background-color: #198167;
+    color: rgb(0, 0, 0);
+}
+.bgc{
+    background-color: #194f81;
+    color: white;
+}
+.bgc-f{
+    background-color: #811919;
+    color: rgb(0, 0, 0);
+}
+
+.content-bg{
+    background-color:black;
+    color:white;
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .camera {
+      display: none;
+    }
+}
+.icon:hover{
+    transition-property: fill;
+    transition-duration: 0.5s;
+    fill:#014787;
+}
+.icon-bg-t1:hover{
+    transition-property: background-color,color;
+    transition-duration: 0.5s;
+    background-color:#014787;
+    color:white;
+}
